@@ -7,8 +7,7 @@ body{
 
 label{
     color:red;
-    text-align: center;
-    padding: 100px;
+    padding: auto;
 }
 input{
 text-align: center;
