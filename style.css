@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    border-radius: 70px;    
+}
+
+label{
+    color:red;
+    text-align: center;
+    padding: 100px;
+}
+input{
+text-align: center;
+padding: 5%;
+border-radius: 20px;
+color: cornflowerblue;
+
+
+}
+.box{
+background-color: black;
+padding: 100px;
+text-align: center;
+border-radius: 20px;
+}
+
