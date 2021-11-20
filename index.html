@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 01</title>
-    
-    
-</head>
+    </head>
 <body>
     <div class="box">
         <label>Consulte seu CPF:</label><br><br>
@@ -21,10 +19,28 @@
          let value=cpf.value.replace(/[^0-9]/g, "").replace(/^([\d]{3})([\d]{3})?([\d]{3})?(\d{2})?/,"$1.$2.$3-$4");   
           cpf.value =value;
         });
-
-        function enviar(){
+    function enviar(){
             alert('o seu CPF é :'  + cpf.value + '.');
         }
-   </script> 
-</body>
+   </script>
+   
+   <h1>Exercicio 02</h1>
+
+   <input type= "number"  name="numero1" id="numero1"class="numero1"> *
+   <input type ="number" nome="number02" id="numero2"class="numero2">
+   <input type ="submit"  value="Multiplicar" onclick="multiplicar()">
+   <div class= "resultado" id="resultado"></div>
+   <script>
+       function multiplicar(){
+           let numero1=document.getElementById ('numero1');
+           let numero2=document.getElementById ('numero2');
+           let valor1=Number(numero1.value)
+           let valor2=Number(numero2.value)
+           let multiplicacao = valor1 * valor2;
+           resultado.innerHTML = 'o valor da multiplicacao entre  ' + valor1 + ' e ' + valor2 + ' é igual a ' + multiplicacao ;
+       }
+   </script>
+
+</body2
+>
 </html>

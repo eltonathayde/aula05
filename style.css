@@ -9,18 +9,18 @@ label{
     color:red;
     padding: auto;
 }
+
 input{
-text-align: center;
-padding: 5%;
-border-radius: 20px;
-color: cornflowerblue;
-
-
+     text-align: center;
+     padding: 5%;
+     border-radius: 20px;
+     color: cornflowerblue;
 }
+
 .box{
-background-color: black;
-padding: 100px;
-text-align: center;
-border-radius: 20px;
+      background-color: black;
+      padding: 100px;
+      text-align: center;
+      border-radius: 20px;
 }
 
