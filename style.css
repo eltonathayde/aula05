@@ -2,13 +2,12 @@ body{
     text-align: center;
     margin: auto;
     width: 400px;
-    border-radius: 70px;
+    border-radius: 15px;
     background-color: slategrey;  
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;  
-    box-shadow: midnightblue;
-    text-shadow: midnightblue;
+    
 }
 h2 {
      color: blue;
@@ -22,14 +21,14 @@ label {
 }
 input{
      text-align: center;
-     padding: 5%;
+     padding: 5px;
      border-radius: 20px;
      color: cornflowerblue;
      font-family: fantasy;
 }
 .box {
       background-color: black;
-      padding: 100px;
+      padding: 40px;
       text-align: center;
       border-radius: 20px;
 }
@@ -37,7 +36,7 @@ input{
     background-color: black;
     color: cornflowerblue;
     border-radius: 20px;
-     box-shadow: 12;
+     padding:30px ;
      
 }
 p{

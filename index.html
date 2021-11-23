@@ -9,7 +9,7 @@
     </head>
 <body>
     <h2>consulte seu CPF</h2>
-    <label>digite seu CPF:</label>
+    <label>digite seu CPF:</label><br><br>
    
     <div class="box">
         
@@ -28,6 +28,7 @@
    </script>
    
    <h2>Exercicio 02</h2>
+   <label>Faça sua multiplicacao:</label><br><br>
 
    <div class="box2">
    
@@ -52,7 +53,7 @@
     <H2>Sistema de multas - Aula 06</H2> 
     <div>
    
-        <p>Velocidade do carro </p>
+        <p>Velocidade do carro: </p>
 <div class ="box2">
 <input type="number" name="velocidade" id="velocidade"> <strong id="quilomentros">KM/H</strong> 
 <input type= "submit" value= "Verificar" onclick="calcular()">
@@ -77,6 +78,18 @@
         
       }
      }
+</script>
+<H2>Exercicio 04</H2>
+<input type= "text" name="nome" id="nome">
+<input type= "submit" id="enviarN" onclick="enviarN()">
+<div id= "Vresposta">
+    </div>
+<script>
+    function enviarN(){
+        let nome=document.getElementById('nome').value
+        let Vresposta=document.getElementById('Vresposta')  
+        Vresposta.innerHTML = `olá ${nome}`
+    }
 </script>
 </body2>
 </html>
