@@ -1,26 +1,52 @@
 body{
     text-align: center;
     margin: auto;
-    width: 500px;
-    border-radius: 70px;    
+    width: 400px;
+    border-radius: 70px;
+    background-color: slategrey;  
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;  
+    box-shadow: midnightblue;
+    text-shadow: midnightblue;
 }
-
-label{
-    color:red;
+h2 {
+     color: blue;
+     font-family:fantasy
+}
+label {
+    color:maroon;
     padding: auto;
+    font-family: fantasy;
+    
 }
-
 input{
      text-align: center;
      padding: 5%;
      border-radius: 20px;
      color: cornflowerblue;
+     font-family: fantasy;
 }
-
-.box{
+.box {
       background-color: black;
       padding: 100px;
       text-align: center;
       border-radius: 20px;
+}
+.box2 {
+    background-color: black;
+    color: cornflowerblue;
+    border-radius: 20px;
+     box-shadow: 12;
+     
+}
+p{
+    color: maroon;
+     font-family: fantasy;
+     
+
+}
+#quilometros{
+    color: white;
 }
 
